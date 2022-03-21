@@ -75,7 +75,6 @@ function uploadPizza() {
           // clear all items in your store
           pizzaObjectStore.clear();
 
-          alert('All saved pizza has been submitted');
         })
         .catch(err => {
           console.log(err);
